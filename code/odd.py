@@ -24,3 +24,5 @@ right_this_minute_version2 = time_now.minute
 
 print ("Time of today:", time_now)
 print ("The minute of the current hour:", right_this_minute_version2)
+
+# Loop over the code, but pause for a few random second as designated by the function time.sleep() and random.radiant()
