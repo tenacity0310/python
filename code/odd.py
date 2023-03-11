@@ -6,7 +6,7 @@ from datetime import datetime
 # The variable odds is defined in terms of "list", which will be enclaosed by square brackets "[]".
 # List in pyhton could hold data of any type.
 # "=" asssignment operator; variable "odds" are assigned the vaule of a list; variable "right_this_minute" are assigned by the method call datetime.today().second
-odds = [ 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33,35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59 ]
+odds = [ 1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59 ]
 
 right_this_minute = datetime.today().minute
 print (right_this_minute)
