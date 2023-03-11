@@ -26,3 +26,13 @@ print ("Time of today:", time_now)
 print ("The minute of the current hour:", right_this_minute_version2)
 
 # Loop over the code, but pause for a few random second as designated by the function time.sleep() and random.radiant()
+
+# "for" loop : The for loop is perfect for controlling looping when you know ahead of time how many iterations you need.
+#  the for loop assigns each number in turn to a loop iteration variable, which is given the name 'i' in this code. 
+
+for i in [1, 2, 3]:
+    print (i)
+
+# iterate over a sequecne (i.e., ordered collection of objects)
+for ch in "HELLO!":
+    print (ch)
