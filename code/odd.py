@@ -2,7 +2,8 @@
 from datetime import datetime
 # from datetime = Python’s standard library which is a large stock of software modules providing lots of prebuilt (and high-quality) reusable code.
 # import datetime = one submodule from the standard library’s datetime module. 
-
+import time
+import random
 # The variable odds is defined in terms of "list", which will be enclaosed by square brackets "[]".
 # List in pyhton could hold data of any type.
 # "=" asssignment operator; variable "odds" are assigned the vaule of a list; variable "right_this_minute" are assigned by the method call datetime.today().second
@@ -34,5 +35,29 @@ for i in [1, 2, 3]:
     print (i)
 
 # iterate over a sequecne (i.e., ordered collection of objects)
+# "ch" stands for character
 for ch in "HELLO!":
     print (ch)
+
+# built in function "range": range accepts a single integer argument that dictates how many times the 'for' loop runs.
+for num in range(5):
+    print ('Head First Rocks!')
+
+# the dir() fucntion is to print the attributes of the module.
+#print(dir(random))
+# the help() function is to print out the usage of the attribute/function. 
+#print(help(random.randint))
+
+
+for times in range(5):    
+    right_this_minute = datetime.today().minute
+    print(right_this_minute) 
+    if right_this_minute in odds:
+        print("This minute seems a little odd.")
+    else:
+        print("Not an odd minute.")
+    # The 'sleep()' function takes second as the argument. For instance, sleep(20) means to pause for 20 seconds
+    wait_time = random.randint(0,60)
+    print (wait_time)
+    time.sleep(wait_time)
+
