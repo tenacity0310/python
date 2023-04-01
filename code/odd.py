@@ -58,6 +58,6 @@ for times in range(5):
         print("Not an odd minute.")
     # The 'sleep()' function takes second as the argument. For instance, sleep(20) means to pause for 20 seconds
     wait_time = random.randint(0,60)
-    print (wait_time)
+    print ("Pleae wait for",wait_time, "seconds")
     time.sleep(wait_time)
-
+print ('DONE!')
