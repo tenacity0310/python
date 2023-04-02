@@ -21,8 +21,8 @@ else:
 from datetime import datetime
 #print (datetime.today().strftime("%A"))
 today = 'Sunday'
-print (today, condition)
 condition = 'Headache'
+print (today, condition)
 if today == 'Saturday':
     print ("Let's party! Today is Saturday!")
 # The 'elif' conditions intend to add dispaprate conditions for 'if/else' expressions.
